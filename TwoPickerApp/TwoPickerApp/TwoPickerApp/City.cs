@@ -9,7 +9,7 @@ namespace TwoPickerApp
     {
         public int Key { get; set; }
         public string CityName { get; set; }
-        //public List<string> Regions { get; set; }
+
         public ObservableCollection<Region> Regions { set; get; }
 
         public City()

@@ -6,7 +6,8 @@
 
     <StackLayout>
         <Picker Title="select city" x:Name="CityPicker" ItemsSource="{Binding Cities}" ItemDisplayBinding="{Binding CityName}" SelectedIndexChanged="DiameterPicker_SelectedIndexChanged"></Picker>
-        <Picker Title="select region" x:Name="RegionPicker" ItemDisplayBinding="{Binding RegionName}"></Picker>
+        <Picker Title="select region" x:Name="RegionPicker" ItemDisplayBinding="{Binding RegionName}" SelectedIndexChanged ="RegionPicker_SelectedIndexChanged"></Picker>
+        <Picker Title="select street" x:Name="StreetPicker" ItemDisplayBinding="{Binding StreetName}"   SelectedIndexChanged="StreetPicker_SelectedIndexChanged"  ></Picker>
     </StackLayout>
 
 </ContentPage>
